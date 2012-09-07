@@ -132,7 +132,7 @@ int main(int argc, char **argv) {
    lcd_cellwid = 5;
    lcd_cellhgt = 8;
 
-   foreground = TRUE;
+   //foreground = TRUE;
    if (foreground != TRUE) {
       if (daemon(1, 0) != 0) {
          fprintf(stderr, "Error: daemonize failed\n");
